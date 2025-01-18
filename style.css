@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: aliceblue;
+}
+.nav{
+    background-color: #C5BAFF;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:150px;
+    font-size: 26px;
+}
+.search-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.input{
+    margin-right:20px;
+    width:600px;
+    height:50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 12px;
+    border:none;
+}
+input,
+input::placeholder {
+    font: 1.25rem/3 sans-serif;
+}
+.btn{
+    width:150px;
+    height:50px;
+    border-radius: 12px;
+    background-color: #C5BAFF;
+    color:black;
+    font-size: 20px;
+    cursor:pointer;
+    font-weight: 400;
+}
+.btn:hover{
+    border: 4px solid black;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:150px;
+    background-color: #C5BAFF;
+    color: black;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+  }
+  .answer{
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  }
+  .answer p{
+    margin-top:10px;
+    font-size: 20px;
+  }
+  .answer .partof{
+    font-style: italic;
+    color:darkgray;
+    margin-top: 2px;
+  }
+ .answer{
+    margin-left: 300px;
+    margin-right: 300px;
+ }
+  .answer div {
+    width:150px;
+    height:50px;
+    border-radius: 12px;
+    background-color: #C5BAFF;
+    color:black;
+    cursor:pointer;
+    border:none;
+    overflow: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 20px;
+    overflow: none;
+   }
+   .answer div a{
+    text-decoration: none;
+    color:black;
+   }
+   .answer div:hover{
+    border: 4px solid black;
+}
+.answer li{
+    font-size:18px;
+    margin-left:10px;
+}
+  
